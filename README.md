@@ -236,3 +236,5 @@ If you lose this file, you lose knowing the state of your infrastructure
    }
    }
    ```
+
+   Automated this workaround with following bash script [bin/generate_trfc_credentials](bin/generate_trfc_credentials)
