@@ -17,8 +17,8 @@ tasks:
       AWS_CLI_AUTO_PROMPT: on-partial
     before: |
       cd $PROJECT_ROOT
-      source ./bin/install_aws_cli
       source ./bin/set_tf_alias
+      source ./bin/install_aws_cli
   - name: http-server
     before: |
       cd $PROJECT_ROOT
@@ -32,3 +32,4 @@ vscode:
     - hashicorp.terraform
     - phil294.git-log--graph
     - mhutchie.git-graph
+    - phil294.git-log--graph
